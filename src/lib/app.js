@@ -1,9 +1,9 @@
 import { browser } from '$app/environment'
 import { readable } from 'svelte/store'
 
-const firebaseConfig = (
-  JSON.parse(import.meta.env.VITE_FIREBASE_CONFIG)
-)
+const firebaseConfig = { 
+  // your firebase config
+}
 
 
 // load the firebase app on demand by putting it in a store
