@@ -10,7 +10,7 @@ session:
 
 <IsAuthenticated>
   <h1>Authenticated</h1>
-  <button on:click={() => auth.logout()}>Logout</button>
+  <button on:click={() => auth.signOut()}>Logout</button>
 </IsAuthenticated>
 
 <IsNotAuthenticated>
